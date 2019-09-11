@@ -1,0 +1,184 @@
+@charset "utf-8";/*黄色 ff6a00  灰色 #E7E8EA;*/
+.margin{
+	width:1200px;
+	margin:0 auto;
+	
+}
+
+body{
+	overflow-x: hidden;
+}
+#lt{
+	position:fixed;
+	right:27px;
+	top:200px;
+	text-align:center;
+	z-index: 10000;
+}
+#lt ul li{
+	width:40px;
+	height:40px;
+	background:#80BDFF;
+	border-radius:50%;
+	font: 20px/2 "";
+	margin-bottom: 15px;
+}
+#lt ul li a{
+	color:#fff;
+}
+#lt ul li:hover{
+	background:#fff;
+}
+#lt ul li:hover a{
+	color:black;
+}
+header{
+	height: 30px;
+	background: #E7E8EA;
+	overflow: hidden;
+	font:12px/2 "";
+}
+header .header-l{
+	float:left;
+}
+header a{
+	margin:0 10px;
+}
+header a:hover{
+	color:#ff6a00
+}
+header .header-r{
+	float:right
+}
+#tou{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 30px;
+}
+#tou .logo img{
+	height:50px;
+	margin:30px 0;
+
+}
+#tou .tou-c{
+	margin:20px 0 0 0;
+}
+
+#tou form{
+	
+	height:30px;
+	width:300px;
+	border:2px solid #ff6a00;
+	overflow:hidden;
+	margin:20px 0 0 0;
+	border-radius: 5px;
+	position: relative;
+}
+#tou  #txt{
+	border :0;
+	float:left;
+	width:220px;
+	height:30px;
+	float:left;
+}
+#tou .sub{
+	height:30px;
+	background: #ff6a00;
+	float:left;
+	width:80px;
+	font:12px/2 '';
+	border: 0;
+	border-radius: 5px;	
+	color:#FFFFFF
+}
+#tou .tou-c p {
+	font:12px/2 "";
+	margin:0 5px;
+}
+#tou .tou-r{
+	font:16px/2 "";
+	margin:45px 10px 0 10px;
+}
+#tou .tou-r a:hover{
+	color:#ff6a00;
+}
+main{
+	width:1200px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	}
+main table tbody tr td img{
+	width:100px;
+	height:100px;
+	}
+main table{
+	text-align:center;
+	width:1200px;
+	border:1px solid #ccc;
+	font:15px/30px "";
+	}
+main table .th1{
+	width:100px;
+	}
+big{
+	display: block;
+	text-align: right;
+	margin-top:20px;
+	}
+big a{
+	display:inline-block;
+	font:20px/40px "";
+	color:#000000;
+	background: #ccc;
+	border-radius: 5px;
+	padding: 0 10px
+	;margin-right: 20px;
+}
+.footer-t{
+	height: 50px;
+}
+.footer-t ul li{
+	float:left;
+	
+}
+.footer-t ul li a{
+	margin:80px 30px 30px 30px;
+	font:14px/2 "";
+}
+
+.footer-b{
+	margin:0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ACACAA;
+}
+.footer-b p{
+	margin-left:400px;
+	font:12px/2 "";	
+	
+}
+.footer-c{
+	margin:30px auto;
+}
+.friend{
+	height: 40px;
+	border-bottom: 1px solid #ACACAA;
+	font:14px/2 "";
+	text-align: center;
+}
+	
+	
+.friend a{
+	margin: 0 20px;
+}
+.tou{position: fixed;
+	bottom: 20px;    
+	right:15px;
+	width:60px;
+	height:60px;
+	background: #80BDFF;
+	border-radius:50%;
+	color:#fff;
+	text-align: center;
+	font: 800 20px/3 "";
+}

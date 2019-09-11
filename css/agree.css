@@ -1,0 +1,154 @@
+@charset "utf-8";/*黄色 ff6a00  灰色 #E7E8EA;*/
+.margin{
+	width:1200px;
+	margin:0 auto;
+}
+body{
+	overflow-x: hidden;
+}
+header{
+	height: 30px;
+	background: #E7E8EA;
+	overflow: hidden;
+	font:12px/2 "";
+}
+header .header-l{
+	float:left;
+}
+header a{
+	margin:0 10px;
+}
+header a:hover{
+	color:#ff6a00
+}
+header .header-r{
+	float:right
+}
+main{height: 570px;}
+main img{
+	margin-top: 48px;
+	position: relative;
+	width: 1519px;
+	height: 486px;
+	}
+.main-logon{
+	background: #fff;
+	width: 420px;
+	height: 409px;
+	position: relative;
+	bottom: 466px;
+	left:820px;
+	overflow: hidden;
+	}
+.main-logon ul{
+	width: 380px;
+	height: 40px;
+	border-bottom: 2px solid #d2d2d2;
+	margin: 20px auto;
+	}
+.main-logon ul .my-box2{
+	border-bottom: 2px solid orangered;
+	}
+.main-logon ul li{
+	float: left;
+	font:15px/40px "";
+	color: #5e5d67;
+	width: 103px;
+	text-align: center; 
+	}
+main .box input{
+	width:300px;
+	height: 40px;
+	margin: 20px auto;
+}
+main .box #btn{
+	margin: 10px 60px;
+	background:#ff6a00 ;
+	border: 0;
+	color: #FFFFFF;
+}
+main .box span{
+	width:300px ;
+	height: 100px;
+	margin-left: 200px;
+	display: block;
+}
+.footer-t{
+	height: 50px;
+}
+.footer-t ul li{
+	float:left;
+	
+}
+.footer-t ul li a{
+	margin:80px 30px 30px 30px;
+	font:14px/2 "";
+}
+
+.footer-b{
+	margin:0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ACACAA;
+}
+.footer-b p{
+	margin-left:400px;
+	font:12px/2 "";	
+	
+}
+.footer-c{
+	margin:30px auto;
+}
+#tou{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 30px;
+}
+#tou .logo img{
+	height:50px;
+	margin:30px 0;
+
+}
+#tou .tou-c{
+	margin:20px 0 0 0;
+}
+
+#tou form{
+	
+	height:30px;
+	width:300px;
+	border:2px solid #ff6a00;
+	overflow:hidden;
+	margin:20px 0 0 0;
+	border-radius: 5px;
+	position: relative;
+}
+#tou  #txt{
+	border :0;
+	float:left;
+	width:220px;
+	height:30px;
+	float:left;
+}
+#tou .sub{
+	height:30px;
+	background: #ff6a00;
+	float:left;
+	width:80px;
+	font:12px/2 '';
+	border: 0;
+	border-radius: 5px;	
+	color:#FFFFFF
+}
+#tou .tou-c p {
+	font:12px/2 "";
+	margin:0 5px;
+}
+#tou .tou-r{
+	font:16px/2 "";
+	margin:45px 10px 0 10px;
+}
+#tou .tou-r a:hover{
+	color:#ff6a00;
+}
+

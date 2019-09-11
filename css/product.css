@@ -1,0 +1,252 @@
+@charset "utf-8";/*黄色 ff6a00  灰色 #E7E8EA;*/
+.margin{
+	width:1200px;
+	margin:0 auto;
+}
+body{
+	overflow-x: hidden;
+}
+header{
+	height: 30px;
+	background: #E7E8EA;
+	overflow: hidden;
+	font:12px/2 "";
+}
+header .header-l{
+	float:left;
+}
+header a{
+	margin:0 10px;
+}
+header a:hover{
+	color:#ff6a00
+}
+header .header-r{
+	float:right
+}
+.footer-t{
+	height: 50px;
+}
+.footer-t ul li{
+	float:left;
+	
+}
+.footer-t ul li a{
+	margin:80px 30px 30px 30px;
+	font:14px/2 "";
+}
+
+.footer-b{
+	margin:0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ACACAA;
+}
+.footer-b p{
+	margin-left:400px;
+	font:12px/2 "";	
+	
+}
+.footer-c{
+	margin:30px auto;
+}
+#tou{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 30px;
+}
+#tou .logo img{
+	height:50px;
+	margin:30px 0;
+
+}
+#tou .tou-c{
+	margin:20px 0 0 0;
+}
+
+#tou form{
+	
+	height:30px;
+	width:300px;
+	border:2px solid #ff6a00;
+	overflow:hidden;
+	margin:20px 0 0 0;
+	border-radius: 5px;
+	position: relative;
+}
+#tou  #txt{
+	border :0;
+	float:left;
+	width:220px;
+	height:30px;
+	float:left;
+}
+#tou .sub{
+	height:30px;
+	background: #ff6a00;
+	float:left;
+	width:80px;
+	font:12px/2 '';
+	border: 0;
+	border-radius: 5px;	
+	color:#FFFFFF
+}
+#tou .tou-c p {
+	font:12px/2 "";
+	margin:0 5px;
+}
+#tou .tou-r{
+	font:16px/2 "";
+	margin:45px 10px 0 10px;
+}
+#tou .tou-r a:hover{
+	color:#ff6a00;
+}
+#nav {
+	height: 38px;
+	border-bottom: 2px solid #ff5c00;
+	margin-top: 40px;
+	background:#ff5c00 ;
+	}
+	
+#nav ul li{
+	font: 600 14px/38px "";
+	float: left;
+	margin:0 24px 0 24px;
+	}
+#nav ul li.te{
+	width:180px;
+	height: 38px;
+	background:#ff6c00 ;
+}
+#nav ul li a{
+	color:#FFFFFF;
+	}
+#nav ul li:hover{
+	background:#ff6c00 ;
+}
+#information-main .margin-information {
+  box-sizing:border-box;
+  margin: 20px auto;
+  padding: 20px 10px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-around; }
+  #information-main .margin-information .information-main-left img {
+    width: 350px;
+    height: 407px; }
+  #information-main .margin-information .information-main-right {
+    width: 645px; }
+    #information-main .margin-information .information-main-right span.span-left {
+      margin-right: 5px;
+      font-size: 12px;
+      vertical-align: middle; }
+    #information-main .margin-information .information-main-right p.information-name {
+      font: 400 18px/5 "Microsoft YaHei";
+      width: 600px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    #information-main .margin-information .information-main-right .product_information {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px 17px;
+      margin-bottom: 10px;
+      position: relative; }
+      #information-main .margin-information .information-main-right .product_information .product_price .information-price {
+        display: inline-block;
+        font: 700 20px/26px "";
+        color: #e33;
+        vertical-align: middle; }
+      #information-main .margin-information .information-main-right .product_information .product_service {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; }
+        #information-main .margin-information .information-main-right .product_information .product_service a {
+          color: #333; }
+        #information-main .margin-information .information-main-right .product_information .product_service .information-service {
+          color: #ed3f3f; }
+        #information-main .margin-information .information-main-right .product_information .product_service .product_service-right {
+          box-sizing: border-box;
+          border-left: 1px solid #c4bebe;
+          padding: 0 30px 0 20px;
+          height: 18px; }
+    #information-main .margin-information .information-main-right .product_style {
+      margin: 35px 0; }
+      #information-main .margin-information .information-main-right .product_style .information-style {
+        vertical-align: middle;
+        display: inline-block;
+        font: 14px/2 "";
+        padding: 0 40px;
+        border: 1px solid #e0e0e0; }
+    #information-main .margin-information .information-main-right .product_number {
+      margin-bottom: 40px;
+      display: flex;
+      vertical-align: middle; }
+      #information-main .margin-information .information-main-right .product_number .product_number-right {
+        border: 1px solid #ccc;
+        margin-left: 6px;
+        vertical-align: middle;
+        display: flex; }
+        #information-main .margin-information .information-main-right .product_number .product_number-right .information-jia, #information-main .margin-information .information-main-right .product_number .product_number-right .information-jian {
+          text-align: center;
+          line-height: 28px;
+          cursor: pointer;
+          background: #e4e4e4;
+          color: #333;
+          width: 28px;
+          height: 28px;
+          font-size: 16px; }
+        #information-main .margin-information .information-main-right .product_number .product_number-right .information-number {
+          border: 0;
+          width: 50px;
+          text-align: center;
+          line-height: 28px; }
+    #information-main .margin-information .information-main-right .product_buy .tocar {
+      text-align: center;
+      width: 160px;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      background: #ed3f3f;
+      font-size: 14px;
+      border-radius: 5px;
+      font-weight: 700;
+      cursor: pointer;
+      vertical-align: bottom;
+      border: 0; }
+      #information-main .margin-information .information-main-right .product_buy .tocar a{
+      	color:#FFFFFF;
+      }
+    #information-main .margin-information .information-main-right .product_buy .have {
+      color: #ed3f3f;
+      width: 100px;
+      height: 40px;
+      background: #fff;
+      line-height: 40px;
+      font-weight: 700;
+      box-sizing: border-box;
+      border: 1px solid #ed3f3f;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 40px; 
+      }
+
+#map{
+	display: flex;
+	justify-content: space-between;
+}
+
+.advice h6{
+	font:20px/2 "";
+}
+.advice ul li{
+	width:300px;
+}
+.advice ul li img{
+	width:300px;
+	height: 300px;
+}
+.active{
+	margin:40px 30px 0 30px;
+}
